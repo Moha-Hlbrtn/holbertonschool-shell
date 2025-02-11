@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr : $''' ''' | grep / | wc -l
+echo $PATH | tr ':' '\n' | xargs -I {} find {} -type d | wc -l
