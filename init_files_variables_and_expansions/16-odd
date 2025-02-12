@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d'\n' - - < nom_du_fichier | cut -f1 -d$'\n'
+paste -d'\n' - - < 16-odd | cut -f1 -d$'\n'
